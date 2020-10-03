@@ -7,10 +7,12 @@
         <br>
         あなたの大切な写真を安全に保管できるサービスです。
       </p>
-    <div class="button">
-      <button type="button" class="btn btn-secondary btn-lg btn-block">ログイン</button>
-      <button type="button" class="btn btn-secondary btn-lg btn-block">新規登録</button>
-    </div>
+      <div class="button">
+        <%= link_to 'ログイン', 'users/sign_in', class: 'btn btn-secondary btn-lg btn-block', method: :get %>
+        <br>
+      <div class="button">
+        <%= link_to '新規登録', 'users/sign_up', class: 'btn btn-secondary btn-lg btn-block', method: :get %>
+      </div>
     </div>
   </div>
 </div>
